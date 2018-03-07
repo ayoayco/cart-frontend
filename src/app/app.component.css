@@ -3,3 +3,35 @@
     margin: 90px auto;
     text-align: center;
 }
+
+
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+    .wrapper {
+        width: 320px;
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 736px) {
+    /* Styles */
+    .wrapper {
+        width: 520px;
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (min-device-width: 736px) and (max-device-width: 812px) {
+    /* Styles */
+    .wrapper {
+        width: 520px;
+        margin: 60px auto;
+    }
+}
